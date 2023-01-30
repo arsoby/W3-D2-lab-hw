@@ -1,0 +1,22 @@
+.root{   
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.container div{
+    margin: 0 0 0 0;
+    padding-bottom:5%  ;
+    padding-left:10%  ;
+    border: 2px double lightblue;
+}
+.container div:hover{
+    font-size: 1.1rem;
+    transition: 200ms;
+    background-color:#f6f6f6;
+}
+.skills li{
+    list-style:circle ;
+}
